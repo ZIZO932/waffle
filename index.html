@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghost of Tsushima | Legends Never Die</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <h1>Ghost of Tsushima</h1>
+            <p>Honor died on the beach.</p>
+            <button class="cta-button" onclick="scrollToFeatures()">Enter Tsushima</button>
+            <div class="scroll-indicator">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7 10L12 15L17 10" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+        </div>
+    </section>
+    <section class="features" id="features">
+        <div class="feature-container">
+            <div class="feature" id="combat">
+                <h2>The Way of the Ghost</h2>
+                <div class="feature-content">
+                    <p>Master both honorable samurai combat and the stealthy tactics of the Ghost.</p>
+                    <div class="feature-showcase">
+                        <span class="feature-showcase-text">STEALTH COMBAT</span>
+                        <div class="stances" id="stances-data">
+                            <div class="stance-item">
+                                <span>Stone Stance</span>
+                                <span class="technique">Effective vs Swordsmen</span>
+                            </div>
+                            <div class="stance-item">
+                                <span>Wind Stance</span>
+                                <span class="technique">Effective vs Spearmen</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="feature" id="world">
+                <h2>Island of Tsushima</h2>
+                <div class="feature-content">
+                    <p>Explore a breathtaking open world inspired by feudal Japan.</p>
+                    <div class="feature-showcase">
+                        <span class="feature-showcase-text">OPEN WORLD</span>
+                        <div class="world-toggle">
+                            <button class="toggle-button" onclick="toggleSeasons()">Change Season</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="feature" id="story">
+                <h2>Jin's Journey</h2>
+                <div class="feature-content">
+                    <p>Experience an emotional story of honor, sacrifice, and redemption.</p>
+                    <div class="feature-showcase">
+                        <span class="feature-showcase-text">EPIC STORY</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cta-section">
+            <button class="cta-button" onclick="window.location.href='legends.html'">Legends Mode</button>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <p>&copy Ghost of Tsushima 2024. All rights to Sucker Punch Productions.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

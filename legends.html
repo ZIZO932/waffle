@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legends Mode | Ghost of Tsushima</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="legends-page">
+    <header>
+        <div class="logo">
+            <a href="index.html">Ghost of Tsushima</a>
+        </div>
+        <div class="header-controls">
+            <button onclick="toggleSeasons()" class="season-toggle-btn">Change Season</button>
+            <a href="index.html" class="back-link">Back to Main</a>
+        </div>
+    </header>
+    <section class="legends-hero">
+        <h1>Legends Mode</h1>
+        <p>Face supernatural threats with friends in this cooperative experience</p>
+    </section>
+    <section class="character-grid">
+        <div class="character" data-power="95">
+            <div class="character-image">
+                <img src="images/samurai.webp" alt="Samurai">
+            </div>
+            <div class="character-details">
+                <h3>Samurai</h3>
+                <p class="role">Tank/DPS</p>
+                <p class="highlight">Unyielding melee combatant</p>
+            </div>
+        </div>
+        <div class="character" data-power="90">
+            <div class="character-image">
+                <img src="images/hunter.webp" alt="Hunter">
+            </div>
+            <div class="character-details">
+                <h3>Hunter</h3>
+                <p class="role">Ranged Specialist</p>
+                <p class="highlight">Deadly precision archer</p>
+            </div>
+        </div>
+        <div class="character" data-power="85">
+            <div class="character-image">
+                <img src="images/ronin.webp" alt="Ronin">
+            </div>
+            <div class="character-details">
+                <h3>Ronin</h3>
+                <p class="role">Healer/Support</p>
+                <p class="highlight">Revives allies, summons spirit dog</p>
+            </div>
+        </div>
+        <div class="character" data-power="88">
+            <div class="character-image">
+                <img src="images/Assassin.webp" alt="Assassin">
+            </div>
+            <div class="character-details">
+                <h3>Assassin</h3>
+                <p class="role">Stealth Killer</p>
+                <p class="highlight">Vanishes in smoke, deadly criticals</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="power-calculator">
+        <h2>Total Team Power</h2>
+        <div class="total-power" id="total-power">0</div>
+        <p>Four warriors against the darkness</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
